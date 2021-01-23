@@ -24,7 +24,7 @@ My personal settings for VS Code
 - Prettier <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Official Extension Page</a>
 - Python <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Official Extension Page</a>
 - Quokka.js <a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode">Official Extension Page</a>
-- Spanish Language Pack <a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es">Official Extenstion Page</a>
+- Spanish Language Pack <a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es">Official Extension Page</a>
 
 ### FONT AND ICONS
 
