@@ -10,6 +10,7 @@ My personal settings for VS Code
 - Just Black <a href="https://marketplace.visualstudio.com/items?itemName=nur.just-black">Official Extension Page</a>
 - Signed Dark Pro <a href="https://marketplace.visualstudio.com/items?itemName=51gn3d.signed-dark-pro">Official Extension Page</a>
 - Spotify Color Theme <a href="https://marketplace.visualstudio.com/items?itemName=oguhpereira.spotify-color-theme">Official Extension Page</a>
+- GitHub Theme <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme">Official Extension Page</a>
 
 ### EXTENSIONS
 
