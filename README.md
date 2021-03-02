@@ -26,7 +26,7 @@ My personal settings for VS Code
 - Python <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Official Extension Page</a>
 - Quokka.js <a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode">Official Extension Page</a>
 - Spanish Language Pack <a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es">Official Extension Page</a>
-- TODO HightLight <a heref="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight">Official Extension Page</a>
+- TODO HightLight <a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight">Official Extension Page</a>
 
 ### FONT AND ICONS
 
@@ -39,4 +39,3 @@ My personal settings for VS Code
 
 - Cursor Style: line
 - Cursor Blinking: expand
-- Minimap: true
