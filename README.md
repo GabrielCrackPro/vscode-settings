@@ -5,7 +5,7 @@ My personal settings for VS Code
 ### THEMES
 
 - Cobalt2 <a href="https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2">Official Extension Page</a>
-- Debri Next <a hrerf="https://marketplace.visualstudio.com/items?itemName=sldobri.bunker">Official Extension Page</a>
+- Debri Next <a href="https://marketplace.visualstudio.com/items?itemName=sldobri.bunker">Official Extension Page</a>
 - Gruvbox <a href="https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox">Official Extension Page</a>
 - Just Black <a href="https://marketplace.visualstudio.com/items?itemName=nur.just-black">Official Extension Page</a>
 - Signed Dark Pro <a href="https://marketplace.visualstudio.com/items?itemName=51gn3d.signed-dark-pro">Official Extension Page</a>
