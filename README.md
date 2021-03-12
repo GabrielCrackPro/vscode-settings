@@ -39,3 +39,76 @@ My personal settings for VS Code
 
 - Cursor Style: line
 - Cursor Blinking: expand
+
+### JSON FILE
+
+<code>
+{
+  "terminal.integrated.rendererType": "dom",
+  "workbench.statusBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.linkedEditing": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.alwaysShowStatus": true,
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "editor.fontFamily": "'cascadia code'",
+  "window.menuBarVisibility": "toggle",
+  "editor.accessibilitySupport": "off",
+  "tabnine.experimentalAutoImports": true,
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "python.showStartPage": false,
+  "editor.fontLigatures": true,
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+  "window.newWindowDimensions": "maximized",
+  "editor.cursorBlinking": "expand",
+  "workbench.preferredDarkColorTheme": "Spotify",
+  "editor.minimap.enabled": false
+}
+</code>
+
+#### KEY BINDINGS
+
+<code>
+[
+  {
+    "key": "ctrl+n",
+    "command": "extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.files.openFolder"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "-workbench.action.files.openFolder"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "-workbench.action.gotoSymbol"
+  }
+]
+</code>
