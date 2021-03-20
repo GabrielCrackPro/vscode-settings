@@ -40,9 +40,9 @@ My personal settings for VS Code
 - Cursor Style: line
 - Cursor Blinking: expand
 
-### JSON FILE
+### SETTINGS FILE
 
-<code>
+```json
 {
   "terminal.integrated.rendererType": "dom",
   "workbench.statusBar.visible": true,
@@ -80,11 +80,11 @@ My personal settings for VS Code
   "workbench.preferredDarkColorTheme": "Spotify",
   "editor.minimap.enabled": false
 }
-</code>
+```
 
 #### KEY BINDINGS
 
-<code>
+```json
 [
   {
     "key": "ctrl+n",
@@ -111,4 +111,4 @@ My personal settings for VS Code
     "command": "-workbench.action.gotoSymbol"
   }
 ]
-</code>
+```
