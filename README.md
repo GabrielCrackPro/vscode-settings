@@ -11,6 +11,7 @@ My personal settings for VS Code
 - Signed Dark Pro <a href="https://marketplace.visualstudio.com/items?itemName=51gn3d.signed-dark-pro">Official Extension Page</a>
 - Spotify Color Theme <a href="https://marketplace.visualstudio.com/items?itemName=oguhpereira.spotify-color-theme">Official Extension Page</a>
 - GitHub Theme <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme">Official Extension Page</a>
+- Lucy <a href="https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode">Official Extension Page</a>
 
 ### EXTENSIONS
 
