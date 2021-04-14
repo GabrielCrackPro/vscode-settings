@@ -29,6 +29,7 @@ My personal settings for VS Code
 - Quokka.js <a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode">Official Extension Page</a>
 - Spanish Language Pack <a href="https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es">Official Extension Page</a>
 - TODO HightLight <a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight">Official Extension Page</a>
+- Error Lens <a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens">Official Extension Page</a>
 
 ### FONT AND ICONS
 
