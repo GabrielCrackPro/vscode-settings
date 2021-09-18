@@ -18,7 +18,6 @@ My personal settings for VS Code
 
 - advanced-new-file <a href="https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file">Official Extension Page</a>
 - Auto Rename Tag <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Official Extension Page</a>
-- Bracket Pair Colorizer <a href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer">Official Extension Page</a>
 - C/C++ <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">Official Extension Page</a>
 - EsLint <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">Official Extension Page</a>
 - GitLens <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens">Official Extension Page</a>
