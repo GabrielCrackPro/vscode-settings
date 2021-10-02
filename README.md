@@ -1,5 +1,8 @@
 # Visual Studio Code Settings
 
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/GabrielCrackPro/vscode-settings/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/GabrielCrackPro/vscode-settings/pulls)
+
 My personal settings for VS Code
 
 ## Themes
