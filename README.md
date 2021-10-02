@@ -37,7 +37,7 @@ My personal settings for VS Code
 - Quokka.js <a href="https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode">Install</a>
 - TODO HightLight <a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight">Install</a>
 - Error Lens <a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens">Install</a>
-- WakaTime <a href="https://wakatime.com">Create an account</a> <a href="https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime">Install</a>
+- WakaTime <a href="https://wakatime.com">Create Account</a> | <a href="https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime">Install</a>
 
 ## Fonts and Icons
 
