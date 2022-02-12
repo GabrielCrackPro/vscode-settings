@@ -16,6 +16,8 @@ My personal settings for VS Code
 - GitHub Theme <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme">Install</a>
 - Lucy <a href="https://marketplace.visualstudio.com/items?itemName=juliettepretot.lucy-vscode">Install</a>
 - OrangeFire <a href="https://marketplace.visualstudio.com/items?itemName=Futureglobe.orangefire">Install</a>
+- Aura Theme <a href="https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme">Install</a>
+- Lukin Theme <a href="https://marketplace.visualstudio.com/items?itemName=lukinco.lukin-vscode-theme">Install</a>
 
 ## Extensions
 
@@ -25,6 +27,8 @@ My personal settings for VS Code
 - Python <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Install</a>
 - Java <a href="https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack">Install</a>
 - PHP <a href="https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack">Install</a>
+- Dart <a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code">Install</a>
+- SQL Tools <a href="https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools">Install</a>
 
 ### Workflow
 
@@ -41,6 +45,7 @@ My personal settings for VS Code
 - TODO HightLight <a href="https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight">Install</a>
 - Error Lens <a href="https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens">Install</a>
 - WakaTime <a href="https://wakatime.com">Create Account</a> | <a href="https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime">Install</a>
+- Docker <a href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker">Install</a>
 
 ## Fonts and Icons
 
