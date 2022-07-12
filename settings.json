@@ -1,37 +1,95 @@
 {
-  "terminal.integrated.rendererType": "dom",
-  "workbench.statusBar.visible": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "explorer.confirmDelete": false,
-  "window.zoomLevel": 1,
-  "editor.wordWrap": "on",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "C_Cpp.updateChannel": "Insiders",
-  "liveServer.settings.donotVerifyTags": true,
-  "workbench.startupEditor": "none",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.linkedEditing": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "eslint.alwaysShowStatus": true,
-  "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "GitHub Dark",
-  "editor.fontFamily": "'cascadia code'",
-  "window.menuBarVisibility": "toggle",
-  "editor.accessibilitySupport": "off",
-  "tabnine.experimentalAutoImports": true,
-  "editor.formatOnSave": true,
-  "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  "python.showStartPage": false,
-  "editor.fontLigatures": true,
-  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
-  "window.newWindowDimensions": "maximized",
+  "errorLens.fontWeight": "bold",
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.fontSize": "16",
+
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "expand",
-  "workbench.preferredDarkColorTheme": "Spotify",
-  "editor.minimap.enabled": false
+
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorStyle": "line-thin",
+  "editor.formatOnPaste": true,
+  "python.pythonPath": "/usr/bin/python",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editor.languageDetection": true,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.cursorStyle": "line",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.suggestSelection": "first",
+  "editor.fontSize": 18,
+  "security.workspace.trust.banner": "never",
+  "terminal.integrated.cursorBlinking": true,
+  "editor.minimap.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.formatOnType": true,
+  "workbench.colorTheme": "Just Black",
+  "codesnap.backgroundColor": "#0098ac",
+  "codesnap.containerPadding": "2em",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "thunder-client.codeSnippetLanguage": "js-fetch",
+  "editor.fontLigatures": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.format.enable": true,
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": true,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.semanticHighlighting.enabled": false,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "comment.block", "comment.line"],
+        "settings": {
+          "fontStyle": "italic bold",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
 }
