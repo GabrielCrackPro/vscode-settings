@@ -1,95 +1,317 @@
 {
-  "errorLens.fontWeight": "bold",
-  "errorLens.messageBackgroundMode": "message",
-  "errorLens.fontSize": "16",
-
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.cursorBlinking": "expand",
-
-  "editor.accessibilitySupport": "off",
-  "editor.bracketPairColorization.enabled": true,
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.external.osxExec": "iTerm.app",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.cursorStyle": "line-thin",
-  "editor.formatOnPaste": true,
-  "python.pythonPath": "/usr/bin/python",
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
-  "security.workspace.trust.enabled": false,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.fontFamily": "Cascadia Code",
-  "editor.inlineSuggest.enabled": true,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 0,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.editor.languageDetection": true,
-  "workbench.startupEditor": "none",
-  "terminal.integrated.cursorStyle": "line",
+  // File-specific formatter settings
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.suggestSelection": "first",
-  "editor.fontSize": 18,
-  "security.workspace.trust.banner": "never",
-  "terminal.integrated.cursorBlinking": true,
-  "editor.minimap.enabled": false,
-  "security.workspace.trust.startupPrompt": "never",
-  "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "explorer.confirmDelete": false,
-  "workbench.editor.enablePreview": false,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.productIconTheme": "fluent-icons",
-  "editor.formatOnType": true,
-  "workbench.colorTheme": "Just Black",
-  "codesnap.backgroundColor": "#0098ac",
-  "codesnap.containerPadding": "2em",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "thunder-client.codeSnippetLanguage": "js-fetch",
-  "editor.fontLigatures": true,
-  "eslint.alwaysShowStatus": true,
-  "eslint.codeActionsOnSave.mode": "problems",
-  "eslint.format.enable": true,
-  "editor.tabSize": 2,
-  "editor.guides.bracketPairs": true,
-  "editor.wordWrap": "on",
+  // Editor appearance and behavior
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.semanticHighlighting.enabled": false,
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "expand",
+  "editor.lineNumbers": "relative",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.parameterHints.enabled": true,
+  "editor.roundedSelection": true,
+  "editor.suggest.preview": true,
+  "editor.suggest.showStatusBar": true,
+  // Formatting and code actions
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestSelection": "recentlyUsed",
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Terminal settings
+  "terminal.external.osxExec": "Warp.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+  "terminal.integrated.minimumContrastRatio": 1,
+  // Workbench and UI customizations
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin noctis icons",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.openPositioning": "last",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.editor.languageDetection": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.commandPalette.experimental.suggestCommands": true,
+  "workbench.commandPalette.history": 5,
+  "editor.codeActionWidget.showHeaders": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  // Explorer settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 1,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package.json, package-lock.json, pnpm-lock.yaml, eslint* ,commitlint.config.js, .stylelintrc.json, .prettierrc, .editorconfig, .browserslistrc, karma.conf.js, metro.config.js, .gitignore, tailwind.config.js,postcss.config.js,eslint.config.js,biome.json, vite*",
+    ".env": ".env, .env.*",
+    "tsconfig.json": "tsconfig*"
+  },
+  "explorer.fileNesting.expand": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrderLexicographicOptions": "lower",
+  // Search and security settings
   "search.exclude": {
     "**/node_modules": true
   },
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  // Git and version control
+  "git.openRepositoryInParentFolders": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Custom labels for different file types
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    // Angular files
+    "**/*module*": "${filename} - Module 📚",
+    "**/*model*": "${filename} - Model 📘",
+    "**/*component*": "${filename} - Component 🧩",
+    "**/*service*": "${filename} - Service 📡",
+    "**/*pipe*": "${filename} - Pipe 🪈",
+    "**/*resolver*": "${filename} - Resolver 🔍",
+    "**/*routes*": "${filename} - Routes 📍",
+    // React files
+    "**/hooks/**/*.{js,jsx,ts,tsx}": "${filename} - Hook 🎣",
+    "**/contexts/**/*.{js,jsx,ts,tsx}": "${filename} - Context 🌐",
+    "**/screens/**/*.{js,jsx,ts,tsx}": "${filename} - Screen 📱",
+    "**/navigators/**/*.{js,jsx,ts,tsx}": "${filename} - Navigator 🗺️",
+    // Common files
+    "**/package*": "${filename}.${extname} - Package 📦",
+    "**/*.scss": "${filename}.${extname} - Styles 🎨",
+    "**/*.css": "${filename}.${extname} - Styles 🎨",
+    "**/*.json": "${filename} - JSON 📜",
+    "**/*.md": "${filename} - Markdown 📝",
+    "**/utils/**/*.{js,jsx,ts,tsx}": "${filename} - Uitl 🛠️",
+    "**/config/**/*.{js,jsx,ts,tsx}": "${filename} - Config ⚙️",
+    "**/*config.{js,jsx,ts,tsx}": "${filename} - Config ⚙️",
+    "**/constants/**/*.{js,jsx,ts,tsx}": "${filename} - Constants 🧮",
+    "**/index.{js,jsx,ts,tsx}": "${filename} - Index 🗂️"
+  },
+  // VIM extension settings
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.enableNeovim": true,
+  "vim.showcmd": false,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<Esc>", "<Esc>"],
+      "commands": ["workbench.action.files.save"],
+      "silent": true
+    },
+    {
+      "before": ["g", "l"],
+      "commands": ["workbench.action.gotoLine"],
+      "silent": true
+    },
+    {
+      "before": ["g", "s"],
+      "commands": ["workbench.action.gotoSymbol"],
+      "silent": true
+    },
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"],
+      "silent": true
+    },
+    {
+      "before": "<leader>o",
+      "commands": ["editor.action.organizeImports"],
+      "silent": true
+    }
+  ],
+  // Miscellaneous settings
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSet": "defaultOutline",
+  "errorLens.fontFamily": "CaskaydiaCove Nerd Font",
+  "errorLens.messageTemplate": "[$source] $message",
+  "errorLens.statusBarMessageTemplate": "[$source] $message",
+  "errorLens.fontWeight": "bold",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.editorHoverPartsEnabled": {
+    "messageEnabled": true
+  },
+  "errorLens.errorGutterIconColor": "#f38ba8",
+  "errorLens.statusBarColorsEnabled": true,
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "extensions.ignoreRecommendations": true,
+  "vsintellicode.modify.editor.suggestSelection": "disabled",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.inlineSuggest.syntaxHighlightingEnabled": true,
+  "workbench.activityBar.location": "bottom",
+  "editor.accessibilitySupport": "off",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tips.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "spotify.showNextButton": false,
+  "spotify.showPreviousButton": false,
+  "spotify.showLyricsButton": false,
+  "spotify.showPlayPauseButton": false,
+  "spotify.showSignInButton": false,
+  "spotify.showSignOutButton": false,
+  "spotify.showMuteUnmuteVolumeButton": false,
+  "catppuccin-noctis-icons.hidesExplorerArrows": true,
+  "catppuccin.accentColor": "mauve",
+  "catppuccin.boldKeywords": true,
+  "catppuccin.italicComments": true,
+  "catppuccin.colorOverrides": {
+    "mocha": {
+      "mauve": "#A0E8D7"
+    }
+  },
+  "catppuccin.customUIColors": {
+    "mocha": {
+      "breadcrumb.foreground": "overlay0",
+      "breadcrumb.background": "crust",
+      "breadcrumbPicker.background": "crust",
+      "statusBar.background": "crust",
+      "statusBar.border": "crust",
+      "statusBar.foreground": "accent",
+      "statusBar.noFolderBackground": "crust",
+      "statusBar.noFolderForeground": "accent",
+      "statusBar.noFolderBorder": "crust",
+      "editorSuggestWidget.foreground": "overlay1",
+      "editorSuggestWidget.selectedForeground": "accent",
+      "editorSuggestWidget.border": "crust",
+      "editorSuggestWidget.background": "crust",
+      "commandCenter.foreground": "accent",
+      "panel.background": "crust",
+      "panelTitle.activeForeground": "accent",
+      "panel.border": "crust",
+      "input.background": "crust",
+      "inputValidation.errorBorder": "red",
+      "inputValidation.errorForeground": "red",
+      "quickInput.background": "crust",
+      "quickInput.foreground": "overlay0",
+      "quickInputList.focusForeground": "accent",
+      "notifications.background": "crust",
+      "notifications.foreground": "accent",
+      "notifications.border": "crust",
+      "tab.activeBackground": "crust",
+      "tab.inactiveBackground": "crust",
+      "tab.activeModifiedBorder": "red",
+      "tab.inactiveModifiedBorder": "red",
+      "statusBarItem.errorBackground": "red",
+      "keybindingLabel.foreground": "accent",
+      "keybindingLabel.border": "crust",
+      "keybindingLabel.background": "crust",
+      "progressBar.background": "accent",
+      "sideBar.background": "crust",
+      "sideBarSectionHeader.background": "crust",
+      "sideBarSectionHeader.foreground": "accent",
+      "sideBar.foreground": "overlay0",
+      "editorOverviewRuler.background": "base",
+      "editorOverviewRuler.findMatchForeground": "accent",
+      "editorOverviewRuler.warningForeground": "yellow",
+      "editorOverviewRuler.errorForeground": "red",
+      "editorWidget.background": "crust",
+      "editorWidget.foreground": "accent",
+      "editor.findMatchHighlightBackground": "yellow",
+      "focusBorder": "base",
+      "editor.foldBackground": "surface0",
+      "editor.findMatchBackground": "yellow",
+      "editorHoverWidget.border": "crust",
+      "editorHoverWidget.background": "crust",
+      "editorHoverWidget.foreground": "overlay1",
+      "list.activeSelectionBackground": "base",
+      "list.inactiveSelectionBackground": "base",
+      "list.dropBackground": "accent",
+      "list.errorForeground": "red",
+      "list.warningForeground": "yellow",
+      "list.focusBackground": "base",
+      "list.focusForeground": "accent",
+      "list.highlightForeground": "accent",
+      "list.inactiveFocusBackground": "base",
+      "list.inactiveSelectionForeground": "accent",
+      "list.inactiveSelectionIconForeground": "accent",
+      "scrollbarSlider.background": "accent",
+      "scrollbar.shadow": "crust",
+      "button.secondaryBackground": "base",
+      "notificationCenter.border": "crust",
+      "notificationCenterHeader.background": "crust",
+      "notificationCenterHeader.foreground": "accent",
+      "notificationToast.border": "crust",
+      "peekView.border": "crust",
+      "peekViewEditorGutter.background": "crust",
+      "peekViewResult.selectionForeground": "overlay0",
+      "peekViewTitle.background": "crust",
+      "peekViewTitleLabel.foreground": "accent",
+      "peekViewTitleDescription.foreground": "overlay0"
+    }
+  },
   "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": ["comment", "comment.block", "comment.line"],
-        "settings": {
-          "fontStyle": "italic bold",
-          "foreground": "#ff1493"
+    "[Catppuccin Mocha]": {
+      "comments": "#585b70",
+      "types": "#cba6f7",
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic bold"
+          }
         }
-      },
-      {
-        "scope": [
-          "keyword.operator.logical",
-          "keyword.operator.arithmetic",
-          "keyword.operator.assignment",
-          "keyword.operator.bitwise"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
+      ]
+    }
   }
 }
