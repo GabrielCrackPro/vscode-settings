@@ -67,6 +67,10 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
   "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.smoothScrolling": true,
   // Workbench and UI customizations
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Catppuccin Mocha",
@@ -119,7 +123,6 @@
   "workbench.editor.customLabels.patterns": {
     // Angular files
     "**/*module*": "${filename} - Module 📚",
-    "**/*model*": "${filename} - Model 📘",
     "**/*component*": "${filename} - Component 🧩",
     "**/*service*": "${filename} - Service 📡",
     "**/*pipe*": "${filename} - Pipe 🪈",
@@ -131,6 +134,8 @@
     "**/screens/**/*.{js,jsx,ts,tsx}": "${filename} - Screen 📱",
     "**/navigators/**/*.{js,jsx,ts,tsx}": "${filename} - Navigator 🗺️",
     // Common files
+    "**/*model*": "${filename} - Model 📘",
+    "**/*enum*": "${filename} - Enum 📘",
     "**/package*": "${filename}.${extname} - Package 📦",
     "**/*.scss": "${filename}.${extname} - Styles 🎨",
     "**/*.css": "${filename}.${extname} - Styles 🎨",
@@ -151,28 +156,49 @@
   "vim.showcmd": false,
   "vim.normalModeKeyBindings": [
     {
-      "before": ["<Esc>", "<Esc>"],
-      "commands": ["workbench.action.files.save"],
+      "before": [
+        "<Esc>",
+        "<Esc>"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ],
       "silent": true
     },
     {
-      "before": ["g", "l"],
-      "commands": ["workbench.action.gotoLine"],
+      "before": [
+        "g",
+        "l"
+      ],
+      "commands": [
+        "workbench.action.gotoLine"
+      ],
       "silent": true
     },
     {
-      "before": ["g", "s"],
-      "commands": ["workbench.action.gotoSymbol"],
+      "before": [
+        "g",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ],
       "silent": true
     },
     {
-      "before": [":"],
-      "commands": ["workbench.action.showCommands"],
+      "before": [
+        ":"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ],
       "silent": true
     },
     {
       "before": "<leader>o",
-      "commands": ["editor.action.organizeImports"],
+      "commands": [
+        "editor.action.organizeImports"
+      ],
       "silent": true
     }
   ],
@@ -217,7 +243,7 @@
   "catppuccin.italicComments": true,
   "catppuccin.colorOverrides": {
     "mocha": {
-      "mauve": "#A0E8D7"
+      "mauve": "#9DDEEF"
     }
   },
   "catppuccin.customUIColors": {
@@ -285,7 +311,7 @@
       "list.inactiveFocusBackground": "base",
       "list.inactiveSelectionForeground": "accent",
       "list.inactiveSelectionIconForeground": "accent",
-      "scrollbarSlider.background": "accent",
+      "scrollbarSlider.background": "overlay2",
       "scrollbar.shadow": "crust",
       "button.secondaryBackground": "base",
       "notificationCenter.border": "crust",
@@ -313,5 +339,6 @@
         }
       ]
     }
-  }
+  },
+  "doki.sticker.css": "z-index:999;background-position:100% 92%;background-size:120px auto;",
 }
