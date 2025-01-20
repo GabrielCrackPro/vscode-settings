@@ -41,6 +41,7 @@
   "editor.roundedSelection": true,
   "editor.suggest.preview": true,
   "editor.suggest.showStatusBar": true,
+  "editor.suggest.localityBonus": true,
   // Formatting and code actions
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -74,7 +75,7 @@
   // Workbench and UI customizations
   "workbench.settings.editor": "json",
   "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.iconTheme": "catppuccin noctis icons",
+  "workbench.iconTheme": "catppuccin-mocha",
   "workbench.editor.enablePreview": false,
   "workbench.editor.openPositioning": "last",
   "workbench.editor.tabSizing": "fit",
@@ -311,7 +312,7 @@
       "list.inactiveFocusBackground": "base",
       "list.inactiveSelectionForeground": "accent",
       "list.inactiveSelectionIconForeground": "accent",
-      "scrollbarSlider.background": "overlay2",
+      "scrollbarSlider.background": "surface2",
       "scrollbar.shadow": "crust",
       "button.secondaryBackground": "base",
       "notificationCenter.border": "crust",
@@ -323,7 +324,14 @@
       "peekViewResult.selectionForeground": "overlay0",
       "peekViewTitle.background": "crust",
       "peekViewTitleLabel.foreground": "accent",
-      "peekViewTitleDescription.foreground": "overlay0"
+      "peekViewTitleDescription.foreground": "overlay0",
+      "menu.border": "crust",
+      "menu.background": "crust",
+      "menu.foreground": "overlay1",
+      "menu.selectionBackground": "base",
+      "menubar.selectionForeground": "accent",
+      "menubar.selectionBackground": "base",
+      "textLink.foreground": "accent"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -341,4 +349,20 @@
     }
   },
   "doki.sticker.css": "z-index:999;background-position:100% 92%;background-size:120px auto;",
+  "catppuccin-icons.associations.extensions": {
+    "component.ts": "angular-component",
+    "service.ts": "angular-service",
+    "pipe.ts": "angular-pipe",
+    "guard.ts": "angular-guard",
+    "directive.ts": "angular-directive",
+    "config.ts": "typescript-config",
+  },
+  "catppuccin-icons.associations.folders": {
+    "models": "folder_types",
+    "environments": "folder_direnv",
+  },
+  "catppuccin-icons.associations.files": {
+    "environment.ts": "typescript-config",
+    "environment.dev.ts": "typescript-config",
+  }
 }
