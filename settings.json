@@ -35,7 +35,6 @@
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.acceptSuggestionOnEnter": "on",
-  "editor.definitionLinkOpensInPeek": true,
   "editor.lightbulb.enabled": "off",
   "editor.parameterHints.enabled": true,
   "editor.roundedSelection": true,
@@ -348,7 +347,9 @@
       ]
     }
   },
-  "doki.sticker.css": "z-index:999;background-position:100% 92%;background-size:120px auto;",
+  "doki.background.enabled": true,
+  "doki.sticker.css": "z-index:999;background-position:100% 97%;background-size:260px auto;",
+  "doki.sticker.path": "/Users/gabrielvr/.config/logos/aqua.gif",
   "catppuccin-icons.associations.extensions": {
     "component.ts": "angular-component",
     "service.ts": "angular-service",
